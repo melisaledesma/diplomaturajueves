@@ -1,0 +1,42 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+
+}
+
+#titulo {
+    font-size: 60px;
+    color: #f440bb;
+    background-color: rgb(98, 8, 98, 0.2);
+    text-align: center;
+    /* margin: 15px 20px 25px 30 px; */
+    padding:30px 25px 20px 15px;
+    border-radius: 50%;
+}
+
+.subtitulo {
+    color: #f440bb;
+    text-shadow: 3px 5px 5px rgb(246, 159, 174);
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color:grey;
+}
+
+a:hover {
+    color: red;
+}
+    
+.foto {
+    border-radius: 0px 177px 0px 0px;
+}
+
+.foto1 {
+    border-radius: 0px 0px 177px 0px;
+}

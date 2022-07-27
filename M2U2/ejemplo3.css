@@ -1,0 +1,43 @@
+.contenedor{
+    background-color: white;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* justify-content: baseline; */
+    justify-content: space-between;
+}
+
+.item1{
+    background-color: red;
+    width: 200px;
+    height: 500px;
+    /* margin: 10px; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2{
+    background-color: blue;
+    width: 200px;
+    height: 500px;
+    /* margin: 10px; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3{
+    background-color: green;
+    width: 200px;
+    height: 500px;
+    /* margin: 10px; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

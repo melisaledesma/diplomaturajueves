@@ -1,0 +1,101 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: rgb(245, 210, 167);
+    padding: 16px 0;
+  
+}
+
+header h1 {
+    color: brown;
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+    /* position: relative; */
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+
+nav {
+    background-color: brown;
+    margin-bottom: 20px;
+    display: block;
+   
+}
+
+footer{
+    background-color: blanchedalmond;
+    clear:both;
+    color:brown;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    
+}
+
+h2{
+    color:brown;
+}
+
+/* inicio bienvenidos */
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.testimonios{
+    width: 25%
+}
+
+.testimonio{
+    background-color: blanchedalmond;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: 100px;
+    font-style: italic;
+    font-size: 15px;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px;
+}
+
+/* fin bienvenidos */
+
+/*inicio como comprar*/
+
+.compras h1{
+    color:brown;
+    font-style: italic;
+}
+
+.compras img{
+    max-width: 100%;
+}
+
+/*fin como comprar*/
